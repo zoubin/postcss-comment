@@ -9,7 +9,11 @@ npm i --save postcss postcss-comment
 ```
 
 ```javascript
-var postcss = require('postcss-comment')
+require('postcss-comment')
+var postcss = require('postcss')
+
+// or
+// var postcss = require('postcss-comment')
 
 var fs = require('fs')
 
