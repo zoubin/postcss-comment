@@ -3,6 +3,11 @@ Allow postcss to support inline comments.
 
 ## Usage
 
+```bash
+npm i --save postcss postcss-comment
+
+```
+
 ```javascript
 var postcss = require('postcss-comment')
 
