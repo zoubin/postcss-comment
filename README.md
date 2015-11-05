@@ -32,24 +32,32 @@ postcss()
 
 inline.css:
 ```css
+/*
+ * comments//
+ * //comments
+ */
 // comments
-// comments
-.inline-comment { // comments
-  // comments
+//* comments*/
+.inline-comment { /// comments
+  // com//ments
   color: red; // comments
-} // comments
-// comments
+} // /*comments
+//*/ comments
 
 ```
 
 outputs:
 ```css
+/*
+ * comments//
+ * //comments
+ */
 /* comments */
-/* comments */
-.inline-comment { /* comments */
-  /* comments */
+/** comments*\/ */
+.inline-comment { /*\/ comments */
+  /* com//ments */
   color: red; /* comments */
-} /* comments */
-/* comments */
+} /* /*comments */
+/**\/ comments */
 
 ```

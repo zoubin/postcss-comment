@@ -11,3 +11,6 @@ postcss()
   .then(function (result) {
     console.log(result.css)
   })
+  .catch(function (err) {
+    console.log(err)
+  })
