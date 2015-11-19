@@ -1,4 +1,10 @@
-<!-- LATEST 7a6338a -->
+<!-- LATEST a13f1c2 -->
+
+## [v1.0.2](https://github.com/zoubin/postcss-comment/commit/a13f1c2) (2015-11-19)
+
+* [ 2015-11-19 [cefa740](https://github.com/zoubin/postcss-comment/commit/cefa740) ] Add build
+
+* [ 2015-11-19 [37b99df](https://github.com/zoubin/postcss-comment/commit/37b99df) ] CHANGELOG
 
 ## [v1.0.1](https://github.com/zoubin/postcss-comment/commit/7a6338a) (2015-11-19)
 
