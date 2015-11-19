@@ -1,19 +1,46 @@
 # postcss-comment
 Allow postcss to support inline comments.
 
+[![npm](https://nodei.co/npm/postcss-comment.png?downloads=true)](https://www.npmjs.org/package/postcss-comment)
+
+[![version](https://img.shields.io/npm/v/postcss-comment.svg)](https://www.npmjs.org/package/postcss-comment)
+[![status](https://travis-ci.org/zoubin/postcss-comment.svg?branch=master)](https://travis-ci.org/zoubin/postcss-comment)
+[![dependencies](https://david-dm.org/zoubin/postcss-comment.svg)](https://david-dm.org/zoubin/postcss-comment)
+[![devDependencies](https://david-dm.org/zoubin/postcss-comment/dev-status.svg)](https://david-dm.org/zoubin/postcss-comment#info=devDependencies)
+
 ## Usage
 
 ```bash
-npm i --save postcss postcss-comment
+npm i --save-dev postcss postcss-comment
 
 ```
 
-```javascript
-require('postcss-comment')
-var postcss = require('postcss')
+### As parser
 
-// or
-// var postcss = require('postcss-comment')
+```javascript
+var postcss = require('postcss')
+var parser = require('postcss-comment')
+
+var fs = require('fs')
+
+var file = __dirname + '/inline.css'
+
+postcss()
+  .process(
+    fs.readFileSync(file, 'utf8'),
+    { from: file, parser: parser }
+  )
+  .then(function (result) {
+    console.log(result.css)
+  })
+
+```
+
+### Hook require
+
+```javascript
+require('postcss-comment/hookRequire')
+var postcss = require('postcss')
 
 var fs = require('fs')
 
@@ -29,6 +56,8 @@ postcss()
   })
 
 ```
+
+## Example
 
 inline.css:
 ```css
