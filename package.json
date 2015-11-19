@@ -1,6 +1,6 @@
 {
   "name": "postcss-comment",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Allow postcss to support inline comments",
   "main": "index.js",
   "scripts": {
