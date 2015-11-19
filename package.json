@@ -21,8 +21,7 @@
     "url": "https://github.com/zoubin/postcss-comment/issues"
   },
   "homepage": "https://github.com/zoubin/postcss-comment#readme",
-  "dependencies": {},
-  "peerDependencies": {
+  "dependencies": {
     "postcss": "^5.0.10"
   },
   "devDependencies": {
