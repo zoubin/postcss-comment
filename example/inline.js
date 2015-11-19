@@ -1,4 +1,4 @@
-var postcss = require('..')
+var postcss = require('../hookRequire')
 var fs = require('fs')
 
 var file = __dirname + '/inline.css'
