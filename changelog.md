@@ -1,4 +1,12 @@
-<!-- LATEST ec8ec69 -->
+<!-- LATEST 7a6338a -->
+
+## [v1.0.1](https://github.com/zoubin/postcss-comment/commit/7a6338a) (2015-11-19)
+
+* [ 2015-11-19 [841bb00](https://github.com/zoubin/postcss-comment/commit/841bb00) ] move postcss to dependencies
+
+* [ 2015-11-19 [9360faa](https://github.com/zoubin/postcss-comment/commit/9360faa) ] Fix example
+
+* [ 2015-11-19 [9c314c3](https://github.com/zoubin/postcss-comment/commit/9c314c3) ] CHANGELOG
 
 ## [v1.0.0](https://github.com/zoubin/postcss-comment/commit/ec8ec69) (2015-11-19)
 
