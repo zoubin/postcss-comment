@@ -25,6 +25,8 @@
     "postcss": "^5.0.10"
   },
   "devDependencies": {
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
     "tap": "^2.2.0"
   }
 }
