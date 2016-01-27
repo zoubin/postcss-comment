@@ -4,7 +4,8 @@
   "description": "Allow postcss to support inline comments",
   "main": "index.js",
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tap test/*.js",
+    "coveralls": "COVERALLS_REPO_TOKEN=REPO_TOKEN npm test"
   },
   "repository": {
     "type": "git",
@@ -25,8 +26,6 @@
     "postcss": "^5.0.10"
   },
   "devDependencies": {
-    "del": "^2.0.2",
-    "gulp": "^3.9.0",
-    "tap": "^2.2.0"
+    "tap": "^5.0.0"
   }
 }

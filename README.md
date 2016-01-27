@@ -37,7 +37,6 @@ postcss()
 ```
 
 ### Hook require
-
 ```javascript
 require('postcss-comment/hookRequire')
 var postcss = require('postcss')
@@ -56,6 +55,26 @@ postcss()
   })
 
 ```
+
+Or:
+```javascript
+var postcss = require('postcss-comment/hookRequire')
+
+var fs = require('fs')
+
+var file = __dirname + '/inline.css'
+
+postcss()
+  .process(
+    fs.readFileSync(file, 'utf8'),
+    { from: file }
+  )
+  .then(function (result) {
+    console.log(result.css)
+  })
+
+```
+
 
 ## Example
 

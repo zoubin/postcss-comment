@@ -1,3 +1,6 @@
-example
-test
-.gitignore
+npm-debug.log
+changelog.md
+coverage/
+example/
+test/
+.*
