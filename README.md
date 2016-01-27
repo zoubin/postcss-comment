@@ -1,12 +1,10 @@
 # postcss-comment
-Allow postcss to support inline comments.
-
-[![npm](https://nodei.co/npm/postcss-comment.png?downloads=true)](https://www.npmjs.org/package/postcss-comment)
-
 [![version](https://img.shields.io/npm/v/postcss-comment.svg)](https://www.npmjs.org/package/postcss-comment)
 [![status](https://travis-ci.org/zoubin/postcss-comment.svg?branch=master)](https://travis-ci.org/zoubin/postcss-comment)
 [![dependencies](https://david-dm.org/zoubin/postcss-comment.svg)](https://david-dm.org/zoubin/postcss-comment)
 [![devDependencies](https://david-dm.org/zoubin/postcss-comment/dev-status.svg)](https://david-dm.org/zoubin/postcss-comment#info=devDependencies)
+
+Allow postcss to support inline comments.
 
 ## Usage
 
