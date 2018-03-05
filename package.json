@@ -26,7 +26,7 @@
     "postcss": "^6.0.0"
   },
   "devDependencies": {
-    "postcss-scss": "^0.1.9",
-    "tap": "^6.0.0"
+    "postcss-scss": "^1.0.4",
+    "tap": "^11.1.1"
   }
 }
