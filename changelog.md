@@ -1,4 +1,12 @@
-<!-- a43bb57 1453859648000 -->
+<!-- 5315546 1520222087000 -->
+
+## [v2.0.0](https://github.com/zoubin/postcss-comment/commit/5315546) (2018-03-05)
+
+* [[`666fd2c`](https://github.com/zoubin/postcss-comment/commit/666fd2c)] test more node versions
+
+* [[`40f0e9b`](https://github.com/zoubin/postcss-comment/commit/40f0e9b)] support postcss 6
+
+* [[`06f7d25`](https://github.com/zoubin/postcss-comment/commit/06f7d25)] CHANGELOG
 
 ## [v1.0.3](https://github.com/zoubin/postcss-comment/commit/a43bb57) (2016-01-27)
 
